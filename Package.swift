@@ -14,10 +14,9 @@ let package = Package(
         .target(
             name: "GCDWebServer",
             path: "GCDWebServer",
-            publicHeadersPath: ".",
+            publicHeadersPath: "Core",
             cSettings: [
                 .headerSearchPath("."),
-                .headerSearchPath("Private"),
-            ])
+            ]),
     ]
 )
